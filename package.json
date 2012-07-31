@@ -2,9 +2,13 @@
     "name": "inspire"
   , "version": "0.0.1"
   , "description": "Inspirational quotes through growl notifications"
-  , "keywords": []
+  , "keywords": ["quotes", "inspirational", "growl"]
+  , "bin": { "inspire": "./inspire" }
   , "author": "Eugene Ware <eugene@noblesamurai.com>"
-  , "dependencies": {}
-  , "main": "index"
-  , "engines": { "node": "0.6.x" }
+  , "dependencies": {
+      "commander": "0.5.x"
+    , "growl": "1.5.x"
+    , "coffee-script": ">= 1.3.3"
+  }
+  , "engines": { "node": "0.8.x" }
 }

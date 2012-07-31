@@ -3,6 +3,17 @@
 
   Inspirational quotes through growl notifications
 
+```
+  Usage: inspire [options]
+
+  Options:
+
+    -h, --help          output usage information
+    -V, --version       output the version number
+    -s, --sticky        Make growl notifications sticky
+    -f, --file [value]  Read the quotes from the file [value]
+```
+
 ## License 
 
 (The MIT License)
