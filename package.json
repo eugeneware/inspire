@@ -1,0 +1,10 @@
+{
+    "name": "inspire"
+  , "version": "0.0.1"
+  , "description": "Inspirational quotes through growl notifications"
+  , "keywords": []
+  , "author": "Eugene Ware <eugene@noblesamurai.com>"
+  , "dependencies": {}
+  , "main": "index"
+  , "engines": { "node": "0.6.x" }
+}
