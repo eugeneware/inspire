@@ -7,7 +7,7 @@ program = require 'commander'
 program
 	.version('0.0.1')
 	.option('-s, --sticky', 'Make growl notifications sticky', false)
-	.option('-f, --file [value]', 'Read the quotes from the file [value]', './test/fixture/quotes.txt')
+	.option('-f, --file [value]', 'Read the quotes from the file [value]')
 	.description('Display a random inspirational quote as a growl notification')
 	.parse(process.argv)
 
@@ -29,5 +29,8 @@ getRandomQuote = (file) ->
 	index = getRandomInt 0, lines.length - 1
 	lines[index]
 
-quote = getRandomQuote program.file
-growl(quote, { title: 'Inspire', image: './test/fixture/sun.png', sticky: program.sticky })
+if program.file is undefined
+	console.log 'Run with --help for options'
+else
+	quote = getRandomQuote program.file
+	growl(quote, { title: 'Inspire', image: "#{__dirname}/sun.png", sticky: program.sticky })

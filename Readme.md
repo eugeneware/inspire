@@ -3,6 +3,12 @@
 
   Inspirational quotes through growl notifications
 
+To install via npm:
+
+```
+npm install -g inspire
+```
+
 ```
   Usage: inspire [options]
 

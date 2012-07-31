@@ -6,9 +6,9 @@
   , "bin": { "inspire": "./inspire" }
   , "author": "Eugene Ware <eugene@noblesamurai.com>"
   , "dependencies": {
-      "commander": "0.5.x"
+      "commander": "0.6.x"
     , "growl": "1.5.x"
-    , "coffee-script": ">= 1.3.3"
+    , "coffee-script": "1.3.3"
   }
   , "engines": { "node": "0.8.x" }
 }
