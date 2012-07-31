@@ -3,6 +3,10 @@
 
   Inspirational quotes through growl notifications
 
+Here's an example screenshot:
+
+![Sample growl message](https://github.com/nharbour/inspire/raw/master/screenshot.png)
+
 To install via npm:
 
 ```
