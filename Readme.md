@@ -9,6 +9,12 @@ To install via npm:
 npm install -g inspire
 ```
 
+Here are the command line parameters.
+
+Your text file is a new line terminated list of inspirational quotes.
+
+I have a regular cron job that runs this every half hour or so.
+
 ```
   Usage: inspire [options]
 
