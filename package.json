@@ -1,6 +1,6 @@
 {
     "name": "inspire"
-  , "version": "0.0.2"
+  , "version": "0.0.3"
   , "description": "Inspirational quotes through growl notifications"
   , "keywords": ["quotes", "inspirational", "growl"]
   , "bin": { "inspire": "./inspire" }
@@ -13,6 +13,6 @@
   , "engines": { "node": "0.8.x" }
   , "repository": {
     "type": "git",
-    "url": "git://github.com/nharbour/inspire"
+    "url": "git://github.com/eugeneware/inspire"
   }
 }
